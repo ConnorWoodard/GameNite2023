@@ -33,6 +33,10 @@ namespace GameNite.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ItemType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("OnHand")
                         .HasColumnType("int");
 
@@ -48,6 +52,7 @@ namespace GameNite.Migrations
                         {
                             InventoryId = 1,
                             ItemName = "Chessex Nebula Polyhedral Dice Set Wisteria with White Luminary (7 dice)",
+                            ItemType = "Accessory",
                             OnHand = 7,
                             Price = 11.99
                         },
@@ -55,6 +60,7 @@ namespace GameNite.Migrations
                         {
                             InventoryId = 2,
                             ItemName = "Call of Cthulhu Keeper's Handbook",
+                            ItemType = "Book",
                             OnHand = 3,
                             Price = 46.990000000000002
                         },
@@ -62,6 +68,7 @@ namespace GameNite.Migrations
                         {
                             InventoryId = 3,
                             ItemName = "Fluxx",
+                            ItemType = "Card Game",
                             OnHand = 13,
                             Price = 5.9900000000000002
                         },
@@ -69,6 +76,7 @@ namespace GameNite.Migrations
                         {
                             InventoryId = 4,
                             ItemName = "Catan",
+                            ItemType = "Board Game",
                             OnHand = 2,
                             Price = 61.990000000000002
                         });

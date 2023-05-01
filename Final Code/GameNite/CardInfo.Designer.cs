@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txtFirstName = new TextBox();
+            txtLastName = new TextBox();
+            txtCardNumber = new TextBox();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
             label1 = new Label();
@@ -42,26 +42,26 @@
             btnUseCard = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // txtFirstName
             // 
-            textBox1.Location = new Point(49, 68);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 0;
+            txtFirstName.Location = new Point(49, 68);
+            txtFirstName.Name = "txtFirstName";
+            txtFirstName.Size = new Size(125, 27);
+            txtFirstName.TabIndex = 0;
             // 
-            // textBox2
+            // txtLastName
             // 
-            textBox2.Location = new Point(291, 68);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 1;
+            txtLastName.Location = new Point(291, 68);
+            txtLastName.Name = "txtLastName";
+            txtLastName.Size = new Size(125, 27);
+            txtLastName.TabIndex = 1;
             // 
-            // textBox3
+            // txtCardNumber
             // 
-            textBox3.Location = new Point(49, 150);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(367, 27);
-            textBox3.TabIndex = 2;
+            txtCardNumber.Location = new Point(49, 150);
+            txtCardNumber.Name = "txtCardNumber";
+            txtCardNumber.Size = new Size(367, 27);
+            txtCardNumber.TabIndex = 2;
             // 
             // textBox4
             // 
@@ -134,12 +134,13 @@
             // 
             // btnUseCard
             // 
-            btnUseCard.Location = new Point(172, 311);
+            btnUseCard.Location = new Point(166, 320);
             btnUseCard.Name = "btnUseCard";
             btnUseCard.Size = new Size(119, 29);
             btnUseCard.TabIndex = 11;
             btnUseCard.Text = "Use Card";
             btnUseCard.UseVisualStyleBackColor = true;
+            btnUseCard.Click += btnUseCard_Click;
             // 
             // CardInfo
             // 
@@ -155,9 +156,9 @@
             Controls.Add(label1);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtCardNumber);
+            Controls.Add(txtLastName);
+            Controls.Add(txtFirstName);
             Name = "CardInfo";
             Text = "CardInfo";
             ResumeLayout(false);
@@ -166,9 +167,9 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txtFirstName;
+        private TextBox txtLastName;
+        private TextBox txtCardNumber;
         private TextBox textBox4;
         private TextBox textBox5;
         private Label label1;

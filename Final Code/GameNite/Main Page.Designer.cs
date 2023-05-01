@@ -158,33 +158,41 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = Properties.Resources.Dice;
             pictureBox1.Location = new Point(253, 119);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(127, 112);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
+            pictureBox2.Image = Properties.Resources.Catan;
             pictureBox2.Location = new Point(432, 119);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(127, 112);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 13;
             pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
+            pictureBox3.Image = Properties.Resources.CoC;
             pictureBox3.Location = new Point(253, 274);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(127, 112);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 14;
             pictureBox3.TabStop = false;
             // 
             // pictureBox4
             // 
+            pictureBox4.Image = Properties.Resources.Fluxx;
             pictureBox4.Location = new Point(432, 274);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(127, 112);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 15;
             pictureBox4.TabStop = false;
             // 
@@ -208,6 +216,7 @@
             lnkAccessories.TabStop = true;
             lnkAccessories.Text = "Accessories";
             lnkAccessories.VisitedLinkColor = Color.Blue;
+            lnkAccessories.LinkClicked += lnkAccessories_LinkClicked;
             // 
             // lnkBoardGames
             // 
@@ -219,6 +228,7 @@
             lnkBoardGames.TabStop = true;
             lnkBoardGames.Text = "Board Games";
             lnkBoardGames.VisitedLinkColor = Color.Blue;
+            lnkBoardGames.LinkClicked += lnkBoardGames_LinkClicked;
             // 
             // lnkBooks
             // 
@@ -230,6 +240,7 @@
             lnkBooks.TabStop = true;
             lnkBooks.Text = "Books";
             lnkBooks.VisitedLinkColor = Color.Blue;
+            lnkBooks.LinkClicked += lnkBooks_LinkClicked;
             // 
             // lnkCardGames
             // 
@@ -241,6 +252,7 @@
             lnkCardGames.TabStop = true;
             lnkCardGames.Text = "Card Games";
             lnkCardGames.VisitedLinkColor = Color.Blue;
+            lnkCardGames.LinkClicked += lnkCardGames_LinkClicked;
             // 
             // Main_Page
             // 

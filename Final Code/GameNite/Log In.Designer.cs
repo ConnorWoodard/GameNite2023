@@ -30,9 +30,9 @@
         {
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            txtEmail = new TextBox();
             label3 = new Label();
-            textBox2 = new TextBox();
+            txtPassword = new TextBox();
             lblError = new Label();
             label5 = new Label();
             btnSignUp = new Button();
@@ -58,12 +58,12 @@
             label2.TabIndex = 1;
             label2.Text = "Email";
             // 
-            // textBox1
+            // txtEmail
             // 
-            textBox1.Location = new Point(12, 75);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(339, 27);
-            textBox1.TabIndex = 2;
+            txtEmail.Location = new Point(12, 75);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(339, 27);
+            txtEmail.TabIndex = 2;
             // 
             // label3
             // 
@@ -74,12 +74,13 @@
             label3.TabIndex = 3;
             label3.Text = "Password";
             // 
-            // textBox2
+            // txtPassword
             // 
-            textBox2.Location = new Point(12, 156);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(339, 27);
-            textBox2.TabIndex = 4;
+            txtPassword.Location = new Point(12, 156);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(339, 27);
+            txtPassword.TabIndex = 4;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // lblError
             // 
@@ -134,9 +135,9 @@
             Controls.Add(btnSignUp);
             Controls.Add(label5);
             Controls.Add(lblError);
-            Controls.Add(textBox2);
+            Controls.Add(txtPassword);
             Controls.Add(label3);
-            Controls.Add(textBox1);
+            Controls.Add(txtEmail);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Log_In";
@@ -149,9 +150,9 @@
 
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox txtEmail;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox txtPassword;
         private Label lblError;
         private Label label5;
         private Button btnSignUp;

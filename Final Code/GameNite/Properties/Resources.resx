@@ -118,16 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="61PASNqtpuL._AC_UL400_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\61PASNqtpuL._AC_UL400_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Battletech" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Battletech.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="91uc2GcyEeL._AC_UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\91uc2GcyEeL._AC_UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Betrayal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Betrayal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Catan-2015-boxart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Catan-2015-boxart.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Candyland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Candyland.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Catan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Catan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CoC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dice Bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dice Bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dice Tray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dice Tray.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dragon Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragon Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edge of the Empire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edge of the Empire.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eldritch Horror" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eldritch Horror.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fluxx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fluxx.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gloom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gloom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hunter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hunter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MTG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MTG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pathfinder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pathfinder.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PTCG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PTCG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red Dragon Inn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red Dragon Inn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scion Demigod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scion Demigod.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sentinel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sentinel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Warhammer Paint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Warhammer Paint.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Werewolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Werewolf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zombiecide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombiecide.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Identity.Client;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,12 +17,34 @@ namespace GameNite
         public Log_In()
         {
             InitializeComponent();
+            
         }
 
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            this.Close();
+            string email = txtEmail.Text;
+            string password = txtPassword.Text;
+            if (email == "" || password == "")
+            {
+                lblError.Visible = true;
+                lblError.Text = "Invalid Email/Password";
+                
+            }
+            for (int i = 0; i < Sign_In.account.Count; i++)
+            {
+                
+                if (email != Sign_In.account[i].Email || password != Sign_In.account[i].Password)
+                {
+                    lblError.Visible = true;
+                    break;
+                }
+                else
+                {
+                    this.Close();
+                }
+            }
+            
         }
 
         private void btnSignUp_Click(object sender, EventArgs e)
@@ -29,6 +52,6 @@ namespace GameNite
             sign_In.Show();
         }
 
-        
+
     }
 }

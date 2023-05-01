@@ -28,34 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            richTextBox1 = new RichTextBox();
+            components = new System.ComponentModel.Container();
+            inventoryBindingSource = new BindingSource(components);
+            ((System.ComponentModel.ISupportInitialize)inventoryBindingSource).BeginInit();
             SuspendLayout();
             // 
-            // richTextBox1
+            // inventoryBindingSource
             // 
-            richTextBox1.BackColor = SystemColors.MenuBar;
-            richTextBox1.BorderStyle = BorderStyle.None;
-            richTextBox1.Location = new Point(12, 12);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.ReadOnly = true;
-            richTextBox1.Size = new Size(688, 306);
-            richTextBox1.TabIndex = 0;
-            richTextBox1.TabStop = false;
-            richTextBox1.Text = "";
+            inventoryBindingSource.DataSource = typeof(Inventory);
             // 
             // Cart
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(richTextBox1);
             Name = "Cart";
             Text = "Cart";
+            Load += Cart_Load;
+            ((System.ComponentModel.ISupportInitialize)inventoryBindingSource).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private RichTextBox richTextBox1;
+        private BindingSource inventoryBindingSource;
     }
 }

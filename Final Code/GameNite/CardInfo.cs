@@ -12,9 +12,16 @@ namespace GameNite
 {
     public partial class CardInfo : Form
     {
+        Cart cart = new Cart();
         public CardInfo()
         {
             InitializeComponent();
         }
+
+        private void btnUseCard_Click(object sender, EventArgs e)
+        {
+            cart.Show();
+        }
+
     }
 }

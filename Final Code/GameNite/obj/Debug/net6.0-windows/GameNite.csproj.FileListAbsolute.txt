@@ -64,3 +64,14 @@ C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Applicati
 C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\obj\Debug\net6.0-windows\GameNite.CardInfo.resources
 C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\obj\Debug\net6.0-windows\GameNite.csproj.CopyComplete
 C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\obj\Debug\net6.0-windows\GameNite.Cart.resources
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\obj\Debug\net6.0-windows\GameNite.Accessories.resources
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\obj\Debug\net6.0-windows\GameNite.Books.resources
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\obj\Debug\net6.0-windows\GameNite.BoardGames.resources
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\obj\Debug\net6.0-windows\GameNite.CardGames.resources
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\obj\Debug\net6.0-windows\GameNite.ThankYou.resources
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Owner\Documents\Ranken Schoolwork\ConnorWoodard\Final Project\Application Code\Final Code\GameNite\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

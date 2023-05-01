@@ -11,7 +11,9 @@ namespace GameNite
     {
         public int InventoryId { get; set; }
         public string ItemName { get; set; } = string.Empty;
+        public string ItemType { get; set; } = string.Empty;
         public double Price { get; set; } = 0.0;
         public int OnHand { get; set; }
+        
     }
 }

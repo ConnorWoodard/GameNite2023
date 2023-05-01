@@ -42,6 +42,8 @@
             txtConfirmPassword = new TextBox();
             btnMakeAccount = new Button();
             label7 = new Label();
+            lblError = new Label();
+            lblError2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -132,6 +134,7 @@
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(194, 27);
             txtPassword.TabIndex = 10;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // txtConfirmPassword
             // 
@@ -139,10 +142,11 @@
             txtConfirmPassword.Name = "txtConfirmPassword";
             txtConfirmPassword.Size = new Size(194, 27);
             txtConfirmPassword.TabIndex = 11;
+            txtConfirmPassword.UseSystemPasswordChar = true;
             // 
             // btnMakeAccount
             // 
-            btnMakeAccount.Location = new Point(135, 305);
+            btnMakeAccount.Location = new Point(135, 380);
             btnMakeAccount.Name = "btnMakeAccount";
             btnMakeAccount.Size = new Size(192, 29);
             btnMakeAccount.TabIndex = 12;
@@ -160,11 +164,33 @@
             label7.TabIndex = 13;
             label7.Text = "Sign In";
             // 
+            // lblError
+            // 
+            lblError.AutoSize = true;
+            lblError.ForeColor = Color.Red;
+            lblError.Location = new Point(53, 317);
+            lblError.Name = "lblError";
+            lblError.Size = new Size(377, 20);
+            lblError.TabIndex = 14;
+            lblError.Text = "Please Make Sure You Are Inputting The Same Password";
+            // 
+            // lblError2
+            // 
+            lblError2.AutoSize = true;
+            lblError2.ForeColor = Color.Red;
+            lblError2.Location = new Point(153, 337);
+            lblError2.Name = "lblError2";
+            lblError2.Size = new Size(154, 20);
+            lblError2.TabIndex = 15;
+            lblError2.Text = "Please Fill In All Fields";
+            // 
             // Sign_In
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(471, 346);
+            ClientSize = new Size(471, 468);
+            Controls.Add(lblError2);
+            Controls.Add(lblError);
             Controls.Add(label7);
             Controls.Add(btnMakeAccount);
             Controls.Add(txtConfirmPassword);
@@ -201,5 +227,7 @@
         private TextBox txtConfirmPassword;
         private Button btnMakeAccount;
         private Label label7;
+        private Label lblError;
+        private Label lblError2;
     }
 }
