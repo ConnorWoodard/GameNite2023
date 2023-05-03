@@ -66,7 +66,7 @@ namespace GameNite
         {
             foreach (Inventory item in inventoryDB.Inventory)
             {
-                inventoryDB.Inventory.Where(x => x.OnHand == x.OnHand - x.Quantity).ToList();
+                inventoryDB.Inventory.Where(x => x.OnHand == x.OnHand - x.Quantity).ToList(); //i hope this works
             }
 
             inventoryDB.SaveChanges();
