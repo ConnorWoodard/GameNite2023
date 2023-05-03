@@ -30,6 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             inventoryBindingSource = new BindingSource(components);
+<<<<<<< Updated upstream
             dataGridView1 = new DataGridView();
             btnPurchase = new Button();
             inventoryIdDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -39,6 +40,9 @@
             onHandDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             quantityDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             UnitPrice = new DataGridViewTextBoxColumn();
+=======
+            lblCart = new Label();
+>>>>>>> Stashed changes
             ((System.ComponentModel.ISupportInitialize)inventoryBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -129,23 +133,38 @@
             UnitPrice.Name = "UnitPrice";
             UnitPrice.Width = 125;
             // 
+            // lblCart
+            // 
+            lblCart.AutoSize = true;
+            lblCart.Location = new Point(34, 26);
+            lblCart.Name = "lblCart";
+            lblCart.Size = new Size(50, 20);
+            lblCart.TabIndex = 0;
+            lblCart.Text = "label1";
+            // 
             // Cart
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+<<<<<<< Updated upstream
             Controls.Add(btnPurchase);
             Controls.Add(dataGridView1);
+=======
+            Controls.Add(lblCart);
+>>>>>>> Stashed changes
             Name = "Cart";
             Text = "Cart";
             Load += Cart_Load;
             ((System.ComponentModel.ISupportInitialize)inventoryBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
         private BindingSource inventoryBindingSource;
+<<<<<<< Updated upstream
         private DataGridView dataGridView1;
         private Button btnPurchase;
         private DataGridViewTextBoxColumn inventoryIdDataGridViewTextBoxColumn;
@@ -155,5 +174,8 @@
         private DataGridViewTextBoxColumn onHandDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn quantityDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn UnitPrice;
+=======
+        private Label lblCart;
+>>>>>>> Stashed changes
     }
 }

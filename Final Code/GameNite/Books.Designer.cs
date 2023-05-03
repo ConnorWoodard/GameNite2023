@@ -35,10 +35,17 @@
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
             lnkCoC = new LinkLabel();
+<<<<<<< Updated upstream
             lnkEdge = new LinkLabel();
             lnkHunter = new LinkLabel();
             lnkPathfinder = new LinkLabel();
             lnkScion = new LinkLabel();
+=======
+            lnkEotE = new LinkLabel();
+            lnkHunter = new LinkLabel();
+            lnkPathfinder = new LinkLabel();
+            lnkDemigod = new LinkLabel();
+>>>>>>> Stashed changes
             lnkSentinel = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -119,6 +126,7 @@
             lnkCoC.Text = "Call of Cthulhu";
             lnkCoC.LinkClicked += lnkCoC_LinkClicked;
             // 
+<<<<<<< Updated upstream
             // lnkEdge
             // 
             lnkEdge.AutoSize = true;
@@ -129,6 +137,18 @@
             lnkEdge.TabStop = true;
             lnkEdge.Text = "Edge of the Empire";
             lnkEdge.LinkClicked += lnkEdge_LinkClicked;
+=======
+            // lnkEotE
+            // 
+            lnkEotE.AutoSize = true;
+            lnkEotE.Location = new Point(271, 197);
+            lnkEotE.Name = "lnkEotE";
+            lnkEotE.Size = new Size(137, 20);
+            lnkEotE.TabIndex = 8;
+            lnkEotE.TabStop = true;
+            lnkEotE.Text = "Edge of the Empire";
+            lnkEotE.LinkClicked += lnkEotE_LinkClicked;
+>>>>>>> Stashed changes
             // 
             // lnkHunter
             // 
@@ -139,7 +159,10 @@
             lnkHunter.TabIndex = 9;
             lnkHunter.TabStop = true;
             lnkHunter.Text = "Hunter The Reckoning";
+<<<<<<< Updated upstream
             lnkHunter.LinkClicked += lnkHunter_LinkClicked;
+=======
+>>>>>>> Stashed changes
             // 
             // lnkPathfinder
             // 
@@ -150,6 +173,7 @@
             lnkPathfinder.TabIndex = 10;
             lnkPathfinder.TabStop = true;
             lnkPathfinder.Text = "Pathfinder";
+<<<<<<< Updated upstream
             lnkPathfinder.LinkClicked += lnkPathfinder_LinkClicked;
             // 
             // lnkScion
@@ -162,6 +186,18 @@
             lnkScion.TabStop = true;
             lnkScion.Text = "Scion Demigod";
             lnkScion.LinkClicked += lnkScion_LinkClicked;
+=======
+            // 
+            // lnkDemigod
+            // 
+            lnkDemigod.AutoSize = true;
+            lnkDemigod.Location = new Point(280, 393);
+            lnkDemigod.Name = "lnkDemigod";
+            lnkDemigod.Size = new Size(112, 20);
+            lnkDemigod.TabIndex = 11;
+            lnkDemigod.TabStop = true;
+            lnkDemigod.Text = "Scion Demigod";
+>>>>>>> Stashed changes
             // 
             // lnkSentinel
             // 
@@ -172,7 +208,10 @@
             lnkSentinel.TabIndex = 12;
             lnkSentinel.TabStop = true;
             lnkSentinel.Text = "Sentinel Comics";
+<<<<<<< Updated upstream
             lnkSentinel.LinkClicked += lnkSentinel_LinkClicked;
+=======
+>>>>>>> Stashed changes
             // 
             // Books
             // 
@@ -180,10 +219,17 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(659, 450);
             Controls.Add(lnkSentinel);
+<<<<<<< Updated upstream
             Controls.Add(lnkScion);
             Controls.Add(lnkPathfinder);
             Controls.Add(lnkHunter);
             Controls.Add(lnkEdge);
+=======
+            Controls.Add(lnkDemigod);
+            Controls.Add(lnkPathfinder);
+            Controls.Add(lnkHunter);
+            Controls.Add(lnkEotE);
+>>>>>>> Stashed changes
             Controls.Add(lnkCoC);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
@@ -212,10 +258,17 @@
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
         private LinkLabel lnkCoC;
+<<<<<<< Updated upstream
         private LinkLabel lnkEdge;
         private LinkLabel lnkHunter;
         private LinkLabel lnkPathfinder;
         private LinkLabel lnkScion;
+=======
+        private LinkLabel lnkEotE;
+        private LinkLabel lnkHunter;
+        private LinkLabel lnkPathfinder;
+        private LinkLabel lnkDemigod;
+>>>>>>> Stashed changes
         private LinkLabel lnkSentinel;
     }
 }
