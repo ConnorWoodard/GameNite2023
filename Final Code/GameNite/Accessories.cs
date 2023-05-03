@@ -12,9 +12,52 @@ namespace GameNite
 {
     public partial class Accessories : Form
     {
+        InventoryContext inventoryDB;
         public Accessories()
         {
+            inventoryDB = new InventoryContext();
             InitializeComponent();
+            foreach (Inventory obj in inventoryDB.Inventory)
+            {
+                obj.Quantity = 0;
+            }
+            inventoryDB.SaveChanges();
+        }
+
+        private void lnkBattletech_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            inventoryDB.Inventory.Where(x => x.InventoryId == 5).ToList()[0].Quantity++;
+            inventoryDB.SaveChanges();
+        }
+
+        private void lnkChessex_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            inventoryDB.Inventory.Where(x => x.InventoryId == 1).ToList()[0].Quantity++;
+            inventoryDB.SaveChanges();
+        }
+
+        private void lnkDiceBag_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            inventoryDB.Inventory.Where(x => x.InventoryId == 9).ToList()[0].Quantity++;
+            inventoryDB.SaveChanges();
+        }
+
+        private void lnkDiceTray_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            inventoryDB.Inventory.Where(x => x.InventoryId == 10).ToList()[0].Quantity++;
+            inventoryDB.SaveChanges();
+        }
+
+        private void lnkDragonShield_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            inventoryDB.Inventory.Where(x => x.InventoryId == 11).ToList()[0].Quantity++;
+            inventoryDB.SaveChanges();
+        }
+
+        private void lnkWarhammerPaint_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            inventoryDB.Inventory.Where(x => x.InventoryId == 22).ToList()[0].Quantity++;
+            inventoryDB.SaveChanges();
         }
     }
 }

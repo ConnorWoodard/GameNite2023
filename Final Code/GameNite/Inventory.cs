@@ -14,6 +14,16 @@ namespace GameNite
         public string ItemType { get; set; } = string.Empty;
         public double Price { get; set; } = 0.0;
         public int OnHand { get; set; }
+        public int Quantity { get; set; } = 0;
+        
+        //public Inventory(string itemName, double price, int onHand, int quantity, double itemPrice) {
+        //    ItemName = itemName;
+        //    Price = price;
+        //    OnHand = onHand;
+        //    Quantity = quantity;
+        //    ItemPrice = itemPrice;
+        //    itemPrice = price * quantity;
+        //}
         
     }
 }

@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace GameNite
 {
     public partial class Main_Page : Form
@@ -31,6 +33,7 @@ namespace GameNite
 
         private void btnCheckOut_Click(object sender, EventArgs e)
         {
+
             cart.Show();
         }
 

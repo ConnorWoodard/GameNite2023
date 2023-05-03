@@ -34,12 +34,12 @@
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
-            linkLabel1 = new LinkLabel();
-            linkLabel2 = new LinkLabel();
-            linkLabel3 = new LinkLabel();
-            linkLabel4 = new LinkLabel();
-            linkLabel5 = new LinkLabel();
-            linkLabel6 = new LinkLabel();
+            lnkBattletech = new LinkLabel();
+            lnkChessex = new LinkLabel();
+            lnkDiceBag = new LinkLabel();
+            lnkDiceTray = new LinkLabel();
+            lnkDragonShield = new LinkLabel();
+            lnkWarhammerPaint = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -108,77 +108,83 @@
             pictureBox6.TabIndex = 5;
             pictureBox6.TabStop = false;
             // 
-            // linkLabel1
+            // lnkBattletech
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(55, 207);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(176, 20);
-            linkLabel1.TabIndex = 6;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Battletech Random Mech";
+            lnkBattletech.AutoSize = true;
+            lnkBattletech.Location = new Point(55, 207);
+            lnkBattletech.Name = "lnkBattletech";
+            lnkBattletech.Size = new Size(176, 20);
+            lnkBattletech.TabIndex = 6;
+            lnkBattletech.TabStop = true;
+            lnkBattletech.Text = "Battletech Random Mech";
+            lnkBattletech.LinkClicked += lnkBattletech_LinkClicked;
             // 
-            // linkLabel2
+            // lnkChessex
             // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.Location = new Point(277, 207);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(148, 20);
-            linkLabel2.TabIndex = 7;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Chessex Frosted Dice";
+            lnkChessex.AutoSize = true;
+            lnkChessex.Location = new Point(277, 207);
+            lnkChessex.Name = "lnkChessex";
+            lnkChessex.Size = new Size(148, 20);
+            lnkChessex.TabIndex = 7;
+            lnkChessex.TabStop = true;
+            lnkChessex.Text = "Chessex Frosted Dice";
+            lnkChessex.LinkClicked += lnkChessex_LinkClicked;
             // 
-            // linkLabel3
+            // lnkDiceBag
             // 
-            linkLabel3.AutoSize = true;
-            linkLabel3.Location = new Point(480, 207);
-            linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(159, 20);
-            linkLabel3.TabIndex = 8;
-            linkLabel3.TabStop = true;
-            linkLabel3.Text = "Gold Dragon Dice Bag";
+            lnkDiceBag.AutoSize = true;
+            lnkDiceBag.Location = new Point(480, 207);
+            lnkDiceBag.Name = "lnkDiceBag";
+            lnkDiceBag.Size = new Size(159, 20);
+            lnkDiceBag.TabIndex = 8;
+            lnkDiceBag.TabStop = true;
+            lnkDiceBag.Text = "Gold Dragon Dice Bag";
+            lnkDiceBag.LinkClicked += lnkDiceBag_LinkClicked;
             // 
-            // linkLabel4
+            // lnkDiceTray
             // 
-            linkLabel4.AutoSize = true;
-            linkLabel4.Location = new Point(103, 399);
-            linkLabel4.Name = "linkLabel4";
-            linkLabel4.Size = new Size(70, 20);
-            linkLabel4.TabIndex = 9;
-            linkLabel4.TabStop = true;
-            linkLabel4.Text = "Dice Tray";
+            lnkDiceTray.AutoSize = true;
+            lnkDiceTray.Location = new Point(103, 399);
+            lnkDiceTray.Name = "lnkDiceTray";
+            lnkDiceTray.Size = new Size(70, 20);
+            lnkDiceTray.TabIndex = 9;
+            lnkDiceTray.TabStop = true;
+            lnkDiceTray.Text = "Dice Tray";
+            lnkDiceTray.LinkClicked += lnkDiceTray_LinkClicked;
             // 
-            // linkLabel5
+            // lnkDragonShield
             // 
-            linkLabel5.AutoSize = true;
-            linkLabel5.Location = new Point(303, 399);
-            linkLabel5.Name = "linkLabel5";
-            linkLabel5.Size = new Size(104, 20);
-            linkLabel5.TabIndex = 10;
-            linkLabel5.TabStop = true;
-            linkLabel5.Text = "Dragon Shield";
+            lnkDragonShield.AutoSize = true;
+            lnkDragonShield.Location = new Point(303, 399);
+            lnkDragonShield.Name = "lnkDragonShield";
+            lnkDragonShield.Size = new Size(104, 20);
+            lnkDragonShield.TabIndex = 10;
+            lnkDragonShield.TabStop = true;
+            lnkDragonShield.Text = "Dragon Shield";
+            lnkDragonShield.LinkClicked += lnkDragonShield_LinkClicked;
             // 
-            // linkLabel6
+            // lnkWarhammerPaint
             // 
-            linkLabel6.AutoSize = true;
-            linkLabel6.Location = new Point(482, 399);
-            linkLabel6.Name = "linkLabel6";
-            linkLabel6.Size = new Size(148, 20);
-            linkLabel6.TabIndex = 11;
-            linkLabel6.TabStop = true;
-            linkLabel6.Text = "Warhammer Paint Kit";
+            lnkWarhammerPaint.AutoSize = true;
+            lnkWarhammerPaint.Location = new Point(482, 399);
+            lnkWarhammerPaint.Name = "lnkWarhammerPaint";
+            lnkWarhammerPaint.Size = new Size(148, 20);
+            lnkWarhammerPaint.TabIndex = 11;
+            lnkWarhammerPaint.TabStop = true;
+            lnkWarhammerPaint.Text = "Warhammer Paint Kit";
+            lnkWarhammerPaint.LinkClicked += lnkWarhammerPaint_LinkClicked;
             // 
             // Accessories
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(722, 487);
-            Controls.Add(linkLabel6);
-            Controls.Add(linkLabel5);
-            Controls.Add(linkLabel4);
-            Controls.Add(linkLabel3);
-            Controls.Add(linkLabel2);
-            Controls.Add(linkLabel1);
+            Controls.Add(lnkWarhammerPaint);
+            Controls.Add(lnkDragonShield);
+            Controls.Add(lnkDiceTray);
+            Controls.Add(lnkDiceBag);
+            Controls.Add(lnkChessex);
+            Controls.Add(lnkBattletech);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -205,11 +211,11 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
-        private LinkLabel linkLabel1;
-        private LinkLabel linkLabel2;
-        private LinkLabel linkLabel3;
-        private LinkLabel linkLabel4;
-        private LinkLabel linkLabel5;
-        private LinkLabel linkLabel6;
+        private LinkLabel lnkBattletech;
+        private LinkLabel lnkChessex;
+        private LinkLabel lnkDiceBag;
+        private LinkLabel lnkDiceTray;
+        private LinkLabel lnkDragonShield;
+        private LinkLabel lnkWarhammerPaint;
     }
 }

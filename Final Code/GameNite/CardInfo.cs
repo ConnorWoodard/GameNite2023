@@ -12,7 +12,7 @@ namespace GameNite
 {
     public partial class CardInfo : Form
     {
-        Cart cart = new Cart();
+        ThankYou thankYou = new ThankYou();
         public CardInfo()
         {
             InitializeComponent();
@@ -20,7 +20,7 @@ namespace GameNite
 
         private void btnUseCard_Click(object sender, EventArgs e)
         {
-            cart.Show();
+            thankYou.Show();
         }
 
     }

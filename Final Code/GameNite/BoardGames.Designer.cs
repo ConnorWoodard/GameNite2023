@@ -34,12 +34,12 @@
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
-            linkLabel1 = new LinkLabel();
-            linkLabel2 = new LinkLabel();
-            linkLabel3 = new LinkLabel();
-            linkLabel4 = new LinkLabel();
-            linkLabel5 = new LinkLabel();
-            linkLabel6 = new LinkLabel();
+            lnkBetrayal = new LinkLabel();
+            lnkCandyland = new LinkLabel();
+            lnkCatan = new LinkLabel();
+            lnkEldritch = new LinkLabel();
+            lnkRedDragonInn = new LinkLabel();
+            lnkZombiecide = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -108,79 +108,85 @@
             pictureBox6.TabIndex = 7;
             pictureBox6.TabStop = false;
             // 
-            // linkLabel1
+            // lnkBetrayal
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(107, 204);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(63, 20);
-            linkLabel1.TabIndex = 9;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Betrayal";
-            linkLabel1.TextAlign = ContentAlignment.TopCenter;
+            lnkBetrayal.AutoSize = true;
+            lnkBetrayal.Location = new Point(107, 204);
+            lnkBetrayal.Name = "lnkBetrayal";
+            lnkBetrayal.Size = new Size(63, 20);
+            lnkBetrayal.TabIndex = 9;
+            lnkBetrayal.TabStop = true;
+            lnkBetrayal.Text = "Betrayal";
+            lnkBetrayal.TextAlign = ContentAlignment.TopCenter;
+            lnkBetrayal.LinkClicked += lnkBetrayal_LinkClicked;
             // 
-            // linkLabel2
+            // lnkCandyland
             // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.Location = new Point(293, 204);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(79, 20);
-            linkLabel2.TabIndex = 10;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Candyland";
-            linkLabel2.TextAlign = ContentAlignment.TopCenter;
+            lnkCandyland.AutoSize = true;
+            lnkCandyland.Location = new Point(293, 204);
+            lnkCandyland.Name = "lnkCandyland";
+            lnkCandyland.Size = new Size(79, 20);
+            lnkCandyland.TabIndex = 10;
+            lnkCandyland.TabStop = true;
+            lnkCandyland.Text = "Candyland";
+            lnkCandyland.TextAlign = ContentAlignment.TopCenter;
+            lnkCandyland.LinkClicked += lnkCandyland_LinkClicked;
             // 
-            // linkLabel3
+            // lnkCatan
             // 
-            linkLabel3.AutoSize = true;
-            linkLabel3.Location = new Point(502, 204);
-            linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(47, 20);
-            linkLabel3.TabIndex = 11;
-            linkLabel3.TabStop = true;
-            linkLabel3.Text = "Catan";
+            lnkCatan.AutoSize = true;
+            lnkCatan.Location = new Point(502, 204);
+            lnkCatan.Name = "lnkCatan";
+            lnkCatan.Size = new Size(47, 20);
+            lnkCatan.TabIndex = 11;
+            lnkCatan.TabStop = true;
+            lnkCatan.Text = "Catan";
+            lnkCatan.LinkClicked += lnkCatan_LinkClicked;
             // 
-            // linkLabel4
+            // lnkEldritch
             // 
-            linkLabel4.AutoSize = true;
-            linkLabel4.Location = new Point(85, 392);
-            linkLabel4.Name = "linkLabel4";
-            linkLabel4.Size = new Size(107, 20);
-            linkLabel4.TabIndex = 12;
-            linkLabel4.TabStop = true;
-            linkLabel4.Text = "Eldritch Horror";
+            lnkEldritch.AutoSize = true;
+            lnkEldritch.Location = new Point(85, 392);
+            lnkEldritch.Name = "lnkEldritch";
+            lnkEldritch.Size = new Size(107, 20);
+            lnkEldritch.TabIndex = 12;
+            lnkEldritch.TabStop = true;
+            lnkEldritch.Text = "Eldritch Horror";
+            lnkEldritch.LinkClicked += lnkEldritch_LinkClicked;
             // 
-            // linkLabel5
+            // lnkRedDragonInn
             // 
-            linkLabel5.AutoSize = true;
-            linkLabel5.Location = new Point(275, 392);
-            linkLabel5.Name = "linkLabel5";
-            linkLabel5.Size = new Size(113, 20);
-            linkLabel5.TabIndex = 13;
-            linkLabel5.TabStop = true;
-            linkLabel5.Text = "Red Dragon Inn";
+            lnkRedDragonInn.AutoSize = true;
+            lnkRedDragonInn.Location = new Point(275, 392);
+            lnkRedDragonInn.Name = "lnkRedDragonInn";
+            lnkRedDragonInn.Size = new Size(113, 20);
+            lnkRedDragonInn.TabIndex = 13;
+            lnkRedDragonInn.TabStop = true;
+            lnkRedDragonInn.Text = "Red Dragon Inn";
+            lnkRedDragonInn.LinkClicked += lnkRedDragonInn_LinkClicked;
             // 
-            // linkLabel6
+            // lnkZombiecide
             // 
-            linkLabel6.AutoSize = true;
-            linkLabel6.Location = new Point(480, 392);
-            linkLabel6.Name = "linkLabel6";
-            linkLabel6.Size = new Size(89, 20);
-            linkLabel6.TabIndex = 14;
-            linkLabel6.TabStop = true;
-            linkLabel6.Text = "Zombiecide";
+            lnkZombiecide.AutoSize = true;
+            lnkZombiecide.Location = new Point(480, 392);
+            lnkZombiecide.Name = "lnkZombiecide";
+            lnkZombiecide.Size = new Size(89, 20);
+            lnkZombiecide.TabIndex = 14;
+            lnkZombiecide.TabStop = true;
+            lnkZombiecide.Text = "Zombiecide";
+            lnkZombiecide.LinkClicked += lnkZombiecide_LinkClicked;
             // 
             // BoardGames
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(665, 450);
-            Controls.Add(linkLabel6);
-            Controls.Add(linkLabel5);
-            Controls.Add(linkLabel4);
-            Controls.Add(linkLabel3);
-            Controls.Add(linkLabel2);
-            Controls.Add(linkLabel1);
+            Controls.Add(lnkZombiecide);
+            Controls.Add(lnkRedDragonInn);
+            Controls.Add(lnkEldritch);
+            Controls.Add(lnkCatan);
+            Controls.Add(lnkCandyland);
+            Controls.Add(lnkBetrayal);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -207,11 +213,11 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
-        private LinkLabel linkLabel1;
-        private LinkLabel linkLabel2;
-        private LinkLabel linkLabel3;
-        private LinkLabel linkLabel4;
-        private LinkLabel linkLabel5;
-        private LinkLabel linkLabel6;
+        private LinkLabel lnkBetrayal;
+        private LinkLabel lnkCandyland;
+        private LinkLabel lnkCatan;
+        private LinkLabel lnkEldritch;
+        private LinkLabel lnkRedDragonInn;
+        private LinkLabel lnkZombiecide;
     }
 }

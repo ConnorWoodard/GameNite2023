@@ -34,12 +34,12 @@
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
-            linkLabel1 = new LinkLabel();
-            linkLabel2 = new LinkLabel();
-            linkLabel3 = new LinkLabel();
-            linkLabel4 = new LinkLabel();
-            linkLabel5 = new LinkLabel();
-            linkLabel6 = new LinkLabel();
+            lnkCoC = new LinkLabel();
+            lnkEdge = new LinkLabel();
+            lnkHunter = new LinkLabel();
+            lnkPathfinder = new LinkLabel();
+            lnkScion = new LinkLabel();
+            lnkSentinel = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -108,78 +108,83 @@
             pictureBox6.TabIndex = 6;
             pictureBox6.TabStop = false;
             // 
-            // linkLabel1
+            // lnkCoC
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(80, 197);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(106, 20);
-            linkLabel1.TabIndex = 7;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Call of Cthulhu";
-            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            lnkCoC.AutoSize = true;
+            lnkCoC.Location = new Point(80, 197);
+            lnkCoC.Name = "lnkCoC";
+            lnkCoC.Size = new Size(106, 20);
+            lnkCoC.TabIndex = 7;
+            lnkCoC.TabStop = true;
+            lnkCoC.Text = "Call of Cthulhu";
+            lnkCoC.LinkClicked += lnkCoC_LinkClicked;
             // 
-            // linkLabel2
+            // lnkEdge
             // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.Location = new Point(271, 197);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(137, 20);
-            linkLabel2.TabIndex = 8;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Edge of the Empire";
+            lnkEdge.AutoSize = true;
+            lnkEdge.Location = new Point(271, 197);
+            lnkEdge.Name = "lnkEdge";
+            lnkEdge.Size = new Size(137, 20);
+            lnkEdge.TabIndex = 8;
+            lnkEdge.TabStop = true;
+            lnkEdge.Text = "Edge of the Empire";
+            lnkEdge.LinkClicked += lnkEdge_LinkClicked;
             // 
-            // linkLabel3
+            // lnkHunter
             // 
-            linkLabel3.AutoSize = true;
-            linkLabel3.Location = new Point(453, 197);
-            linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(155, 20);
-            linkLabel3.TabIndex = 9;
-            linkLabel3.TabStop = true;
-            linkLabel3.Text = "Hunter The Reckoning";
+            lnkHunter.AutoSize = true;
+            lnkHunter.Location = new Point(453, 197);
+            lnkHunter.Name = "lnkHunter";
+            lnkHunter.Size = new Size(155, 20);
+            lnkHunter.TabIndex = 9;
+            lnkHunter.TabStop = true;
+            lnkHunter.Text = "Hunter The Reckoning";
+            lnkHunter.LinkClicked += lnkHunter_LinkClicked;
             // 
-            // linkLabel4
+            // lnkPathfinder
             // 
-            linkLabel4.AutoSize = true;
-            linkLabel4.Location = new Point(95, 393);
-            linkLabel4.Name = "linkLabel4";
-            linkLabel4.Size = new Size(76, 20);
-            linkLabel4.TabIndex = 10;
-            linkLabel4.TabStop = true;
-            linkLabel4.Text = "Pathfinder";
+            lnkPathfinder.AutoSize = true;
+            lnkPathfinder.Location = new Point(95, 393);
+            lnkPathfinder.Name = "lnkPathfinder";
+            lnkPathfinder.Size = new Size(76, 20);
+            lnkPathfinder.TabIndex = 10;
+            lnkPathfinder.TabStop = true;
+            lnkPathfinder.Text = "Pathfinder";
+            lnkPathfinder.LinkClicked += lnkPathfinder_LinkClicked;
             // 
-            // linkLabel5
+            // lnkScion
             // 
-            linkLabel5.AutoSize = true;
-            linkLabel5.Location = new Point(280, 393);
-            linkLabel5.Name = "linkLabel5";
-            linkLabel5.Size = new Size(112, 20);
-            linkLabel5.TabIndex = 11;
-            linkLabel5.TabStop = true;
-            linkLabel5.Text = "Scion Demigod";
+            lnkScion.AutoSize = true;
+            lnkScion.Location = new Point(280, 393);
+            lnkScion.Name = "lnkScion";
+            lnkScion.Size = new Size(112, 20);
+            lnkScion.TabIndex = 11;
+            lnkScion.TabStop = true;
+            lnkScion.Text = "Scion Demigod";
+            lnkScion.LinkClicked += lnkScion_LinkClicked;
             // 
-            // linkLabel6
+            // lnkSentinel
             // 
-            linkLabel6.AutoSize = true;
-            linkLabel6.Location = new Point(467, 393);
-            linkLabel6.Name = "linkLabel6";
-            linkLabel6.Size = new Size(114, 20);
-            linkLabel6.TabIndex = 12;
-            linkLabel6.TabStop = true;
-            linkLabel6.Text = "Sentinel Comics";
+            lnkSentinel.AutoSize = true;
+            lnkSentinel.Location = new Point(467, 393);
+            lnkSentinel.Name = "lnkSentinel";
+            lnkSentinel.Size = new Size(114, 20);
+            lnkSentinel.TabIndex = 12;
+            lnkSentinel.TabStop = true;
+            lnkSentinel.Text = "Sentinel Comics";
+            lnkSentinel.LinkClicked += lnkSentinel_LinkClicked;
             // 
             // Books
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(659, 450);
-            Controls.Add(linkLabel6);
-            Controls.Add(linkLabel5);
-            Controls.Add(linkLabel4);
-            Controls.Add(linkLabel3);
-            Controls.Add(linkLabel2);
-            Controls.Add(linkLabel1);
+            Controls.Add(lnkSentinel);
+            Controls.Add(lnkScion);
+            Controls.Add(lnkPathfinder);
+            Controls.Add(lnkHunter);
+            Controls.Add(lnkEdge);
+            Controls.Add(lnkCoC);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -206,11 +211,11 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
-        private LinkLabel linkLabel1;
-        private LinkLabel linkLabel2;
-        private LinkLabel linkLabel3;
-        private LinkLabel linkLabel4;
-        private LinkLabel linkLabel5;
-        private LinkLabel linkLabel6;
+        private LinkLabel lnkCoC;
+        private LinkLabel lnkEdge;
+        private LinkLabel lnkHunter;
+        private LinkLabel lnkPathfinder;
+        private LinkLabel lnkScion;
+        private LinkLabel lnkSentinel;
     }
 }
