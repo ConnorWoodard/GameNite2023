@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,17 +21,15 @@ namespace GameNite
         {
             inventoryDB = new InventoryContext();
             InitializeComponent();
-<<<<<<< Updated upstream
+
             ordersList = new List<Order>();
-            foreach (Inventory obj in inventoryDB.Inventory)
-            {
-                obj.Quantity = 0;
-            }
-            inventoryDB.SaveChanges();
+            
+            
         }
 
         private void lnkCoC_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            
             inventoryDB.Inventory.Where(x => x.InventoryId == 2).ToList()[0].Quantity++;
             inventoryDB.SaveChanges();
         }
@@ -63,20 +62,12 @@ namespace GameNite
         {
             inventoryDB.Inventory.Where(x => x.InventoryId == 21).ToList()[0].Quantity++;
             inventoryDB.SaveChanges();
-=======
-            ordersList = new List<Inventory>();
+
+            
 
         }
-        private void lnkCoC_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            ordersList = inventoryDB.Inventory.Where(o => o.InventoryId.Equals(2)).Select(c => c).ToList();
-            double quantityPrice = inventoryDB.Inve
-        }
+       
 
-        private void lnkEotE_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
->>>>>>> Stashed changes
-        }
+      
     }
 }

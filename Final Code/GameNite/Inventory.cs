@@ -15,7 +15,7 @@ namespace GameNite
         public double Price { get; set; } = 0.0;
         public int OnHand { get; set; }
         public int Quantity { get; set; } = 0;
-<<<<<<< Updated upstream
+
         
         //public Inventory(string itemName, double price, int onHand, int quantity, double itemPrice) {
         //    ItemName = itemName;
@@ -25,9 +25,7 @@ namespace GameNite
         //    ItemPrice = itemPrice;
         //    itemPrice = price * quantity;
         //}
-=======
-       
->>>>>>> Stashed changes
+
         
     }
 }

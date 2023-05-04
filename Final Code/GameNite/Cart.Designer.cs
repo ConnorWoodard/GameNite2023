@@ -30,7 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             inventoryBindingSource = new BindingSource(components);
-<<<<<<< Updated upstream
+
             dataGridView1 = new DataGridView();
             btnPurchase = new Button();
             inventoryIdDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -40,9 +40,9 @@
             onHandDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             quantityDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             UnitPrice = new DataGridViewTextBoxColumn();
-=======
+
             lblCart = new Label();
->>>>>>> Stashed changes
+
             ((System.ComponentModel.ISupportInitialize)inventoryBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -147,12 +147,11 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-<<<<<<< Updated upstream
+
             Controls.Add(btnPurchase);
             Controls.Add(dataGridView1);
-=======
-            Controls.Add(lblCart);
->>>>>>> Stashed changes
+           Controls.Add(lblCart);
+
             Name = "Cart";
             Text = "Cart";
             Load += Cart_Load;
@@ -164,7 +163,7 @@
 
         #endregion
         private BindingSource inventoryBindingSource;
-<<<<<<< Updated upstream
+
         private DataGridView dataGridView1;
         private Button btnPurchase;
         private DataGridViewTextBoxColumn inventoryIdDataGridViewTextBoxColumn;
@@ -174,8 +173,8 @@
         private DataGridViewTextBoxColumn onHandDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn quantityDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn UnitPrice;
-=======
+
         private Label lblCart;
->>>>>>> Stashed changes
+
     }
 }

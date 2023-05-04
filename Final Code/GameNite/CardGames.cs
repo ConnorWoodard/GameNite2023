@@ -17,11 +17,7 @@ namespace GameNite
         {
             inventoryDB = new InventoryContext();
             InitializeComponent();
-            foreach(Inventory obj in inventoryDB.Inventory)
-            {
-                obj.Quantity = 0;
-            }
-            inventoryDB.SaveChanges();
+           
         }
 
         private void lnkCoup_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

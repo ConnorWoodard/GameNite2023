@@ -14,16 +14,16 @@ namespace GameNite
 {
     public partial class Cart : Form
     {
-<<<<<<< Updated upstream
+
         CardInfo cardInfo = new CardInfo();
         InventoryContext inventoryDB;
 
 
-=======
+
         ThankYou thankYou = new ThankYou();
-        InventoryContext inventoryDB;
+        
         List<Inventory> ordersList;
->>>>>>> Stashed changes
+
         public Cart()
         {
             inventoryDB = new InventoryContext();
@@ -38,7 +38,7 @@ namespace GameNite
 
         private void Cart_Load(object sender, EventArgs e)
         {
-<<<<<<< Updated upstream
+
 
             dataGridView1.DataSource = inventoryDB.Inventory.ToList();
             if (dataGridView1.DataSource != null)
@@ -62,13 +62,13 @@ namespace GameNite
                 double product = val1 * val2;
                 row.Cells["UnitPrice"].Value = product.ToString();
             }
-=======
+
             foreach  (Inventory inventory in ordersList)
             {
                 lblCart.Text = ordersList.Count.ToString();
             }
             
->>>>>>> Stashed changes
+
         }
 
         private void inventoryBindingSource_CurrentChanged(object sender, EventArgs e)
